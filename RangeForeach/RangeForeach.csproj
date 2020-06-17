@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+	  <LangVersion>preview</LangVersion>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <Version>0.0.1</Version>
+	  <Authors>Yair Halberstadt</Authors>
+	  <Description>Allows you to foreach over a range in C# 9.0</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageProjectUrl>https://github.com/YairHalberstadt/RangeForeach</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/YairHalberstadt/RangeForeach</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
