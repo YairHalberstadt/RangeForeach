@@ -4,7 +4,7 @@ The loop is inclusive start, exclusive end. Therefore `foreach(var i in 1..3) Co
 
 Note that this package does not work currently, as the feature is not yet included even as a preview in visual studio. Once it is, it will require the preview language version till C# 9.0 is released.
 
-### Nuget
+### NuGet
 
 https://www.nuget.org/packages/RangeForeach/0.0.1
 
