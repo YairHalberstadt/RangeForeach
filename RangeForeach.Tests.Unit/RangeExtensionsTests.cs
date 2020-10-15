@@ -44,21 +44,21 @@ namespace RangeForeach.Tests.Unit
         public void ErrorIfStartIsNegative()
         {
             var items = new List<int>();
-            Assert.Throws<ArgumentException>(() => { foreach (var i in -7..13) { } });
+            Assert.Throws<ArgumentOutOfRangeException>(() => { foreach (var i in -7..13) { } });
         }
 
         [Fact]
         public void ErrorIfEndIsNegative()
         {
             var items = new List<int>();
-            Assert.Throws<ArgumentException>(() => { foreach (var i in 7..-13) { } });
+            Assert.Throws<ArgumentOutOfRangeException>(() => { foreach (var i in 7..-13) { } });
         }
 
         [Fact]
         public void ErrorIfStartAndEndIsNegative()
         {
             var items = new List<int>();
-            Assert.Throws<ArgumentException>(() => { foreach (var i in -7..-6) { } });
+            Assert.Throws<ArgumentOutOfRangeException>(() => { foreach (var i in -7..-6) { } });
         }
 
         [Fact]
